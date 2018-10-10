@@ -1,0 +1,28 @@
+.modeladoLogo{
+	padding: 300px 600px;
+	background: #f9d386;
+	width: 130px;
+	height: 130px;
+}
+
+img{
+	width: 20%;
+	height: auto;
+}
+.parrafo1{
+	margin: 10px 50px;
+	padding: 20px;
+	border-width: 15px;
+	border-style: ridge;
+	border-color: #f9bf89;
+	text-align: justify;
+}
+.tresElementos{
+	margin: 30px 250px;
+	padding: 50px;
+	justify-content: center;
+	background: #f2b0c7;
+	border-style: solid;
+	border-color: #dbc3f4;
+	border-width: #cefff8 ;
+}

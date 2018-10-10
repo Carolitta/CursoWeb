@@ -1,0 +1,21 @@
+.caja1{
+	background: #f7def9;
+	margin-top: 50px;
+	margin-left: 30px;
+	margin-right: 40px;
+	margin-bottom:  20px;
+}
+.caja2{
+	background: #c276c9;
+	margin: 50px;
+	padding: 60px;
+}
+.caja3{
+	background: #eec4f2;
+	border-top-style: double; 
+	border-right-style: solid;
+	border-left-style:dashed;
+	border-bottom-style: dotted; 
+	border-radius: 30px;
+	border-width: 20px;
+}#FFFFFF

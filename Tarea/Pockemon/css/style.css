@@ -1,0 +1,23 @@
+body{
+	background:  #bf8040;
+	font-family: 'Comfortaa', cursive;
+	font-size: 20px;
+}
+header, .main{
+	width: 90%;
+	max-width: 1000px;
+	margin:20px; auto;
+}
+header nav{
+	background: #86592d;
+	border-radius: 10px;
+	overflow:hidden;
+}
+
+header nav ul li a{
+	padding: 10px 20px;
+	display:block;
+	color: #4d3319;
+	text-decoration: none;
+}
+
