@@ -1,0 +1,25 @@
+/*a todos lo parrafos que tengan una clase que se coloreen de cafe*/
+/*Primer selector*/
+p[class]{
+	background: brown;
+}
+
+/*Segundo selector solo la clase dos tenga clase se pinte
+*/
+p[class= clase2]{
+	background: pink;
+}
+
+/*
+Se hace en casacada poner el orden de los stilos
+*/
+
+/*Tercer caso*/
+
+a[class~=estilo2]{
+background: blue;
+}
+
+a[class~=estilo1]{
+background: yellow;
+}

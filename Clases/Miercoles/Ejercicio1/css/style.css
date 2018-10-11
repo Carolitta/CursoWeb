@@ -1,0 +1,12 @@
+p > span{
+	color: red;
+}
+/*Selector descendente*/
+/*Todas las etiquetas a dentro de un p van a tener el color rojo*/
+p a{
+	background: red;
+}
+/*El hijo que sea directo de a, se va a colorear de azul*/
+p>a{
+	background: blue;
+}*

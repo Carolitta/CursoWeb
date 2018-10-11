@@ -1,0 +1,24 @@
+h2{
+	background: pink;
+}
+
+/*Cualquier h2 que este seguido de un h1 se pointe de amarillo*/
+
+h1 + h2{
+	background: yellow;
+}
+
+/*Si un p esta seguido de otro p que se idente*/
+/* fromas de dar tamaño 
+px pixel es un punto 
+pt es similar a pixel pero no tan chiquito
+em 12pt =1em
+% y em hace una pagina responsiva
+*/
+p + p{
+	text-indent: 20em;
+}
+
+p{
+	background: red;
+}

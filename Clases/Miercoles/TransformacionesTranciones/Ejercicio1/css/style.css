@@ -1,0 +1,23 @@
+div{
+	width: 200px;
+	height: 200px;
+	background-color: black;
+	border: 4px solid yellow;	
+} 
+
+/*gira a favor con un menos en contra
+*hover es la accion que hace vcuando pasas el mouse
+*
+*/
+/*Transformacion*/
+div#num:hover{
+	transform: rotate(45deg);
+	background-color: pink;
+	width: 250px;
+	height: 15px;
+	transition: width: 10s;
+}
+
+/*trancision*/
+
+
