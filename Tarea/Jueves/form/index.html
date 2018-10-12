@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<link rel="shortcut icon" href="img/grande.png">
+<link rel="stylesheet" href="css/style.css">    
+<body>
+  <div class="centrar"> 
+    <h1>Veterinaria Carolitta</h1>
+    <img class="logo" src="img/huella.png" alt="Logo">
+
+  </div>
+
+  <div class="contenedor fondo">
+    <form action="/">
+      <label for="nmascota">Nombre Mascota</label>
+      <input type="text" id="nmascota" name="nombremascota" placeholder="Nombre de tu mascota">
+
+      <label for="duenio">Nombre dueño</label>
+      <input type="text" id="duenio" name="duenio" placeholder="Nombre dueño">
+
+      <label for="raza">Raza</label>
+      <select id="raza" name="raza">
+        <option value="maltes">Maltés</option>
+        <option value="chihuhua">Chihuhua</option>
+        <option value="salchicha">Salchicha</option>
+        <option value="bullterry">Bull Terry</option>
+        <option value="doberman">Doberman</option>
+        <option value="frenchp">French Poddle</option>
+
+      </select>
+      <input type="radio" name="gender" value="male"> Macho<br>
+      <input type="radio" name="gender" value="female"> Hembra<br><br>
+
+      <div class="upload-btn-wrapper">
+        <button class="btn">Subir foto</button>
+        <input type="file" name="myfile" />
+      </div>
+      <div>
+        <input type="date" required="required">
+        <label for="date">Fecha de nacimiento</label>
+      </div>
+      <br>
+      <br>
+      <div class="box">
+        <div class="container-1">
+          <span class="icon"><i class="fa fa-search"></i></span>
+          <input type="search" id="search" placeholder="Buscar vacuna" />
+        </div>
+      </div>
+      <br>
+      <br>
+      <div>
+        <h3>Observaciones:</h3>
+        <textarea id="TextArea" placeholder="Observaciones">
+
+        </textarea>
+      </div>
+      <div>
+        <label class="container">Acepto terminos y condiciones
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <input type="submit" value="Registrar mascota">
+    </form>
+  </div>
+
+</body>
+</html>
+

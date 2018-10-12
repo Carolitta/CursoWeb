@@ -1,0 +1,218 @@
+html{
+    font-family: cursive;
+}
+body{
+    background-image: url('../img/patitas.jpg.jpg');
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #BFD5DA;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #AA3E94;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #7048E5;
+}
+
+.fondo {
+    border-radius: 5px;
+    background-color:   rgba(227, 78, 157, 0.8);
+    padding: 20px;
+}
+
+.contenedor{
+    margin: 100px;
+}
+
+
+.centrar{
+    text-align: center;
+}
+
+.logo{
+    width: 10%;
+}
+
+h2{
+    font-family: sans-serif;
+}
+
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+
+input[type="date"]::-webkit-clear-button {
+    display: none;
+}
+
+
+input[type="date"]::-webkit-inner-spin-button { 
+    display: none;
+}
+
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: #2c3e50;
+}
+
+
+input[type="date"] {
+    border-radius: 3px;
+    appearance: none;
+    -webkit-appearance: none;
+    color: #95a5a6;
+    font-family: "Helvetica", arial, sans-serif;
+    font-size: 18px;
+    border:1px solid #ecf0f1;
+    background:#ecf0f1;
+    padding:5px;
+    display: inline-block !important;
+    visibility: visible !important;
+}
+
+input[type="date"], focus {
+    color: #95a5a6;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+textarea {
+  height:auto;
+  max-width:600px;
+  color:#999;
+  font-weight:400;
+  width:100%;
+  background:#fff;
+  border-radius:3px;
+  line-height:2em;
+  border:none;
+  box-shadow:0px 0px 5px 1px rgba(0,0,0,0.1);
+  padding:30px;
+  -webkit-transition: height 2s ease;
+-moz-transition: height 2s ease;
+-ms-transition: height 2s ease;
+-o-transition: height 2s ease;
+transition: height 2s ease;
+}
+
+.container-1{
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+
+.container-1 input#search{
+  width: 300px;
+  height: 50px;
+  background: #DCBDD8;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #F0DFDF;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
