@@ -1,0 +1,40 @@
+JS: lenguaje de programacion de la web
+Caracteristicas:
+-tipado dinámico
+-tipado débil
+-POO
+-Estrcuturado
+-Interpretado
+-POe programacion orientada a eventos
+
+---------------------------------------------------------------------------------------------------
+DOM
+
+D document
+O bject
+M odel
+
+--------------------------------------------------------------------------------------------------
+-var permite tener una varible global
+-let variable temporal 
+
+hace que lo script corran más rápido porque no están en memoria
+------------------------------------------------------------------------------------------------
+T is
+tOs tecnologías opercacionales
+
+tratamientos de bits
+
+-------------------------------------------------------------
+
+a = 1 igualacion
+a == b comparacion
+a === b (exactamente igual)  va de la mano con que sea tipado débil
+
+--------------------------------------------------------
+
+funcion para generar aleatorios para la tarea el marciano
+
+------------------------------------------------------------------------
+programacion asincrona: que hace busquedas automaticamente
+aplicaciones ractivas, cosas con angular, 

@@ -1,0 +1,10 @@
+Funciones en js
+
+________________________________________________________________________________
+
+eventos: la interaccion con el usuario
+ej: cuando se minimiza la pantalla, cuando se recarga la página
+onclick es un evento
+Los eventos forman parte dl nivel 3
+________________________________________________________________________________
+onfocus
